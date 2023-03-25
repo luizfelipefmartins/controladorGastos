@@ -1,0 +1,46 @@
+.entrada {
+    margin-top: 1rem;
+    width: 18rem;
+    height: 9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #F8F9FA;
+    border-radius: 0.25rem;
+    border-left:4px solid #03B898;
+}
+
+.despesa {
+    margin-top: 1rem;
+    width: 18rem;
+    height: 9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #F8F9FA;
+    border-radius: 0.25rem;
+    border-left:4px solid #E9ECEF;
+}
+
+@media (min-width: 1024px){
+    .entrada{
+        width: 35rem;
+        height: 5.43rem;
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .despesa {
+        width: 35rem;
+        height: 5.43rem;
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem;
+        justify-content:space-between;
+        align-items: center;
+    }
+
+}

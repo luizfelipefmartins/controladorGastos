@@ -1,0 +1,14 @@
+.containerTotal {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+
+.containerValue {
+    display: flex;
+    justify-content: space-between;
+}
